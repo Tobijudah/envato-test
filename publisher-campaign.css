@@ -111,6 +111,18 @@ th {
     font-size: 1.5rem;
   }
 
+  .dropdown-menu {
+    max-width: 90vw;
+  }
+
+  .dropdown-menu .btn {
+    width: 100%;
+  }
+
+  .dropdown-menu .form-check {
+    width: fit-content;
+  }
+
   .btn {
     height: 2.375rem;
   }

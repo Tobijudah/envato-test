@@ -149,14 +149,15 @@
          
                      <div class="px-3 row d-flex justify-content-between py-5 py-sm-2 border-bottom">
          
-                                              <div class="dropdown mr-3 px-0 mb-3 mb-sm-0">
+                       <div class="dropdown mr-3 px-0 mb-3 mb-sm-0">
                          <button class="btn btn-tetiary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            Configure Filters
                          </button>
                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                           <div class="row p-3">
 
-                             <div class="col-6">
+                           <div class="row p-3 flex-column flex-sm-row">
+
+                             <div class="col mb-3">
                               <h4>Campaign Status</h4>
                               <div class="form-check my-3">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -194,11 +195,10 @@
                                   Disabled checkbox
                                 </label>
                               </div>
-                              <button class="btn btn-secondary">Apply</button>
                              </div>
 
                              
-                             <div class="col-6">
+                             <div class="col mb-3">
                               <h4>Ads Platform</h4>
                               <div class="form-check my-3">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -236,10 +236,21 @@
                                   Disabled checkbox
                                 </label>
                               </div>
-                              <button class="btn btn-tetiary">Cancel</button>
                              </div>
                           
                            </div>
+
+                           <div class="row p-3 flex-column flex-sm-row">
+
+                            <div class="col mb-3">
+                              <button class="btn btn-secondary btn-sm mb-3 mb-sm-0">Reset Filter</button>
+                            </div>
+                            <div class="col mb-3">
+                              <button class="btn btn-tetiary">Cancel</button>
+                            </div>
+
+                           </div>
+
                          </div>
                        </div>
                        
@@ -256,8 +267,7 @@
          
                        <button class="btn btn-secondary btn-sm mb-3 mb-sm-0">Reset Filter</button>
          
-                                              <input type="date" name="date" id="date" class="btn btn-tetiary ml-sm-auto" value="2020-07-22">
-
+                       <input type="date" name="date" id="date" class="btn btn-tetiary ml-sm-auto" value="2020-07-22">
          
                      </div>
          
@@ -271,7 +281,7 @@
           
                         <tr>
                           <th scope="col">STATUS</th>
-                          <th scope="col">CLIENT NAME</th>
+                          <th scope="col">CLIENT.NAME</th>
                           <th scope="col">ID</th>
                           <th scope="col">PLATFORM</th>
                           <th scope="col">IMPRESSION</th>
