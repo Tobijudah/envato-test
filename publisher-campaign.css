@@ -10,7 +10,6 @@
 
 body {
   color: var(--primary-color);
-  background-color: var(--shade-of-green);
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -112,7 +111,7 @@ th {
   }
 
   .dropdown-menu {
-    max-width: 90vw;
+    max-width: 75vw;
   }
 
   .dropdown-menu .btn {
