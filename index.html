@@ -131,10 +131,10 @@
                <div class="container mt-5">
          
                  <div class="row">
-                   <div class="col px-sm-0">
+                   <div class="col px-md-0">
                      <h2>Campaign List</h2>
                    </div>
-                   <div class="col px-sm-0 d-flex justify-content-end">
+                   <div class="col px-md-0 d-flex justify-content-end">
                      <button class="btn btn-secondary btn-sm">New Tasks</button>
                    </div>
                  </div>
@@ -154,9 +154,42 @@
                            Dropdown button
                          </button>
                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                           <a class="dropdown-item" href="#">Action</a>
-                           <a class="dropdown-item" href="#">Another action</a>
-                           <a class="dropdown-item" href="#">Something else here</a>
+                           <div class="row p-3">
+
+                             <div class="col-6">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Default checkbox
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2">
+                                  Disabled checkbox
+                                </label>
+                              </div>
+                             </div>
+
+                             
+                             <div class="col-6">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Default checkbox
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2">
+                                  Disabled checkbox
+                                </label>
+                              </div>
+                             </div>
+
+                             
+
+                           </div>
                          </div>
                        </div>
                        
@@ -202,7 +235,7 @@
           
                         <tr>
                           <td>
-                            <div class="custom-control custom-switch">
+                            <div class="custom-control custom-switch mr-1">
                               <input type="checkbox" class="custom-control-input check-complete" id="customSwitch1">
                               <label class="custom-control-label check-complete" for="customSwitch1">Completed</label>
                             </div>
@@ -359,30 +392,19 @@
                           <td>5%</td>
                           <td>$1500</td>
                         </tr>
-                       
-                        
+                                              
                       </tbody>
           
-                      <tfoot>
-          
-                        <tr>
-          
-                          <td>
-                            <nav aria-label="Page navigation example">
-                              <ul class="pagination pagination-lg">
-                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                              </ul>
-                            </nav>
-                          </td>
-                          
-                        </tr>
-                        
-                      </tfoot>
-          
                     </table>
+
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination pagination-lg">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link btn-secondary" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                      </ul>
+                    </nav>
 
                    </div>
          
@@ -391,20 +413,23 @@
                </div>
          
              </section>
+
             <footer class="footer">
-               <nav class="row align-items-center">
-                  <div class="col-sm-6 px-0">
+               <nav class="row align-items-center w-100">
+                  <div class="col-sm-6">
                      <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
                         <li class="pr-3"><a class="footer-link" href="#">Privacy Policy</a></li>
                         <li><a class="footer-link" href="#">Terms of Use</a></li>
                      </ul>
                   </div>
-                  <div class="col-sm-6 px-0">
+                  <div class="col-sm-6">
                      <p class="text-center text-md-right">&copy; Copyright 2020 GetViral All Rights Reserved.</p>
                   </div>
                </nav>
             </footer>
+
          </section>
+
       </main>
 
 
