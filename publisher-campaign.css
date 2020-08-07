@@ -131,7 +131,6 @@ th {
   box-shadow: none;
 }
 
-
 .page-item.active .page-link {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
